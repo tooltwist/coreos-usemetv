@@ -1,0 +1,44 @@
+{
+  "name": "fleet-usemetv",
+  "description": "Wall Display for CoreOS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tooltwist/tooltwist-cli",
+  "author": {
+    "name": "Philip Callender",
+    "email": "philip.callender@tooltwist.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tooltwist/tooltwist-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tooltwist/tooltwist-cli/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/JackFranklin/filesearch/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/tooltwist-cli",
+  "engines": {
+    "node": "0.10"
+  },
+  "private": false,
+  "dependencies": {
+      "ssh2": "^0.3.6",
+      "http": "*"	
+  },
+  "keywords": [
+  	"reports",
+	"remote control",
+    "tooltwist",
+    "coreos",
+    "fleet",
+    "use.tv"
+  ],
+  "preferGlobal": "true",
+  "bin": {
+    "tooltwist": "lib/tooltwist-cli.js"
+  }
+}
